@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Cars Dealership</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Cars Dealership</a>
+    <div class="navbar-nav">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="About.html">About Us</a>
+      <a class="nav-link active" aria-current="page" href="Contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+    <section class="text-center mb-5">
+      <h1>Contact Us</h1>
+      <p class="lead">Questions about a dealership or a customer review? We'd be happy to help.</p>
+      <img class="img-fluid rounded shadow-sm mb-3"
+           src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80"
+           alt="Modern office building representing the Cars Dealership team">
+    </section>
+
+    <div class="row">
+      <section class="col-md-6 mb-4">
+        <h2>Customer Support</h2>
+        <p>For help using the dealership directory, accessing reviews, or reporting an issue, contact our support team.</p>
+        <ul class="list-unstyled">
+          <li><strong>Email:</strong> <a href="mailto:support@carsdealership.example">support@carsdealership.example</a></li>
+          <li><strong>Phone:</strong> <a href="tel:+18005550142">+1 (800) 555-0142</a></li>
+          <li><strong>Hours:</strong> Monday–Friday, 9:00 AM–5:00 PM (U.S. Central Time)</li>
+        </ul>
+      </section>
+
+      <section class="col-md-6 mb-4">
+        <h2>Business Inquiries</h2>
+        <p>Dealership partners and other organizations can contact our partnerships team.</p>
+        <ul class="list-unstyled">
+          <li><strong>Email:</strong> <a href="mailto:partnerships@carsdealership.example">partnerships@carsdealership.example</a></li>
+          <li><strong>Media:</strong> <a href="mailto:media@carsdealership.example">media@carsdealership.example</a></li>
+          <li><strong>Mailing address:</strong> Cars Dealership, Customer Relations, United States</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="card p-4 mb-4">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <div class="mb-3">
+          <label class="form-label" for="name">Full name</label>
+          <input class="form-control" type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="email">Email address</label>
+          <input class="form-control" type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label" for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+      <p class="text-muted mt-2 mb-0"><small>Demo form: connect it to a backend endpoint to send messages.</small></p>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2026 Cars Dealership. All rights reserved.</p>
+  </footer>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
